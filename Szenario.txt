@@ -1,0 +1,84 @@
+<Text>Nemo und seine Freunde Coral und Finley waren gute Freunde und schwammen gemeinsam im Meer, auf der Suche nach etwas zu 
+<Text>essen. Die Sonne schien hell und das Wasser glitzerte verlockend.
+
+[Nemo:START_ZUSTAND]
+[Coral:START_ZUSTAND]
+[Finley:START_ZUSTAND]
+
+<Text>Nemo: "Lasst uns nach etwas Leckerem suchen, meine Freunde. Ich habe heute großen Hunger!"
+<Text>Coral: "Ja, Nemo, ich bin auch hungrig. Hoffentlich finden wir bald etwas."
+
+<Text>Die Freunde bewegten sich behutsam durch das Wasser und hielten Ausschau nach leckeren Speisen.
+<Text>Plötzlich entdeckten sie in der Ferne einige Seetangblätter, die sanft im Meeresstrom hin und her schaukelten und Korallen.
+
+[Seetang:START_ANZAHL, GEWICHT]
+[Korallen:START_ANZAHL, GEWICHT]
+
+<Text>Coral: "Korallen! Ich liebe Korallen! Lass uns dorthin schwimmen und uns daran sattessen!"
+<Text>Nemo stimmt begeistert zu und schwammt zu dem Seetang, die er mag. Sie begannen, davon zu fressen und genossen den Geschmack.
+
+<AKTION> Nemo fresst Seetang
+<AKTION> Coral fresst Korallen
+
+<Text>Nemo: "Mmm, dieser Seetang ist so lecker! Ich fühle mich satt und zufrieden."
+<Text>Coral: "Ja, Nemo, du hast recht. Meine Korallen sind auch sehr lecker! Ich bin jetzt auch satt. Finley probier mal!"
+
+<AKTION> Finley fresst Korallen
+
+[Finley:AKTUELE_ZUSTAND]
+
+<Text>Finley hingegen war ein Vegetarier und bevorzugte Plankton als seine Hauptnahrungsquelle. Leider konnte er kein Plankton in 
+<Text>der Nähe finden. Enttäuscht sagte er: "Hmm, ich kann kein Plankton finden. Ich wünschte, es wäre hier irgendwo."
+
+<Text>------------------------------------------------------------------------------------------
+<Text>Während sie weiter schwammen, bemerkten sie plötzlich drei Haie namens Bruce, Hammer und Hart, die langsam auf sie zukamen.
+<Text>Die Freunde wurden ängstlich und zogen sich vorsichtig zurück. Doch zu ihrer Überraschung hörten sie die Haie sagen: 
+
+<Text>"Keine Sorge, wir sind jetzt auch Veganer! Wir möchten gute Beziehungen zu anderen Fischen aufbauen."
+
+<Text>Die Freunde entspannten sich und wagten es näher zu kommen.
+<Text>Nemo: "Das ist großartig! Wir können euch über verschiedene vegane Leckereien beraten und euch helfen, gute Beziehungen zu anderen Fischen aufzubauen."
+<Text>Bruce: "Das wäre fantastisch! Wir sind hungrig und neugierig auf die Welt der veganen Speisen."
+
+[Bruce:START_ZUSTAND]
+[Hammer:START_ZUSTAND]
+[Hart:START_ZUSTAND]
+
+<Text>Die Haie bedankten sich bei Nemo und seinen Freunden für die Ratschläge und machten sich gemeinsam auf die Suche nach veganen
+<Text>Leckereien. Sie schwammen durch das Meer, tauchten ab und untersuchten jeden verlockenden Ort.
+
+<Text>Bruce: "Schaut mal, hier ist Seetang! Ich werde mich daran sattessen."
+
+<AKTION> Bruce fresst Seetang
+
+<Text>Hammer: "Und dort drüben sind Korallen! Komm, Hart, lass uns sie probieren."
+
+<AKTION> Hammer fresst Korallen
+
+<Text>Hart schwamm zu Hammer und beide begannen, die Korallen zu fressen.
+
+<AKTION> Hart fresst Korallen
+
+<Text>Hart fand aber Korallen unlecker und konnte nichts anderes zum Essen finden. Er fühlte sich hungrig und etwas frustriert. 
+<Text>Plötzlich jedoch nahm er den Geruch von menschlichem Blut wahr und konnte seinen Instinkten nicht widerstehen. Hart schwamm 
+<Text>schnell zu der Quelle des Geruchs und seine Freunde folgten ihm besorgt.
+
+[Hart:AKTUELE_ZUSTAND]
+
+<Text>------------------------------------------------------------------------------------------------------------------------------
+<Text>Als sie bei dem Taucher ankamen, sahen sie, dass er sich an dem im Meer treibenden Müll geschnitten hatte. Bruce und Hammer 
+<Text>waren alarmiert und riefen besorgt: "Hart, lass das! Es ist gefährlich und ungesund, den Taucher zu essen." Hart zögerte einen 
+<Text>Moment, doch dann hörte er seine Freunde und hielt inne.
+
+<AKTION> Hart fresst Taucher
+
+<Text>Nun sahen sie, dass der Taucher gekommen war, um die einmalig schönen Planktonen zu bewundern, die in dieser Gegend 
+<Text>sind. Hart war neugierig und probierte vorsichtig ein Stück Plankton. Zu seiner Überraschung fand er sie wirklich köstlich. Er 
+<Text>lächelte und sagte: "Wow, diese Planktonen schmecken fantastisch! Ich bin jetzt satt und zufrieden."
+
+[Plankton:START_ANZAHL, GEWICHT]
+
+<AKTION> Hart fresst Plankton
+
+<Text>Die Freunde schwammen gemeinsam davon, ihre Bäuche gefüllt mit veganen Leckereien. Sie hatten sich gegenseitig geholfen und 
+<Text>neue Erfahrungen gemacht. Es war ein Tag voller Abenteuer und Gemeinschaft im Meer.

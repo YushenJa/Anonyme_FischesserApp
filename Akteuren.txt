@@ -1,0 +1,11 @@
+<Fisch>, Nemo, PFLANZE, VEGANER, 5, 15
+<Fisch>, Coral, PFLANZE, VEGANER, 10, 20
+<Fisch>, Finley, PLANKTON, VEGETARIER, 8, 16
+<Fisch>, Bruce, PFLANZE, VEGANER, 15, 30
+<Fisch>, Hammer, PFLANZE, VEGANER, 20, 40
+<Fisch>, Hart, PLANKTON, VEGETARIER, 12, 24
+
+<Leckerbissen>, Seetang, PFLANZE, 100, 2
+<Leckerbissen>, Plankton, PLANKTON, 50, 1
+<Leckerbissen>, Korallen, PFLANZE, 200, 5
+<Leckerbissen>, Taucher, NICHT_ESSBAR, 1, 80
